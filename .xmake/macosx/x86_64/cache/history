@@ -1,0 +1,6 @@
+{
+    __version = "2.3.3",
+    cmdlines = {
+        "xmake l /Users/bytedance/.vscode/extensions/tboox.xmake-vscode-1.3.4/assets/config.lua"
+    }
+}
