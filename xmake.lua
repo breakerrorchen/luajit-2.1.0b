@@ -6,6 +6,11 @@ if os.isfile("/etc/redhat-release") then
     autogendir = "autogen/$(plat)/nojit/$(arch)"
 end
 
+-- ios not support jit
+if is_plat("iphoneos") then
+    jit = false
+end
+
 -- add target
 target("luajit")
 
